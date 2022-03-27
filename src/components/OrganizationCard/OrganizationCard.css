@@ -1,0 +1,48 @@
+.organization-card-wrap {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+
+.organization-card-image {
+    height: 500px;
+    width: 380px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.organization-card-link {
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.organization-card-name {
+    font-size: 30px;
+   text-transform: uppercase;
+}
+
+.organization-card-city {
+    font-size: 24px;
+}
+
+.organization-card-des {
+    color: rgba(0, 0, 0, 0.8);
+    width: 67%;
+}
+
+.organization-card-btn {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    color: #282c34;
+    font-weight: 400;
+    cursor: pointer;
+    border: 1px solid #282c34;
+}
+.organization-card-btn:hover {
+    background-color: #282c34;
+    color: white;
+}
+
+

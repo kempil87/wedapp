@@ -1,0 +1,73 @@
+.auth-wrap {
+    margin: 0;
+    border: 2px solid powderblue;
+    height: 55%;
+    border-radius: 22px;
+    background: linear-gradient(to top left, powderblue, pink);
+    padding: 0 30px 0 30px;
+}
+
+.auth {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://images.pexels.com/photos/1630860/pexels-photo-1630860.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.auth-title {
+    font-size: 36px;
+    color: #784e85;
+    font-weight: 500;
+}
+
+.auth-link {
+    text-decoration: none;
+    color: #784e85;
+}
+
+.auth-link:hover {
+    color: #784e85;
+    opacity: 0.6;
+}
+
+.auth-btn {
+    width: 72%;
+    background-color: #784e85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    color: white;
+    font-weight: 400;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.auth-btn:hover {
+    opacity: 0.8;
+}
+
+.auth-btn:focus {
+    outline: none;
+}
+
+.auth-input {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background: none;
+    outline: none;
+    padding-left: 8px;
+    font-size: 20px;
+
+}
+
+.auth-input:focus {
+    border-bottom: 2px solid #784e85;
+}
+

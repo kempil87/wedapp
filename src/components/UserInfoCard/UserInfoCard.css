@@ -1,0 +1,47 @@
+.avatar{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to top left,palegoldenrod,powderblue);
+    border-radius: 50%;
+    border: 2px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.control_point{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkseagreen;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    color: white;
+}
+.names{
+    margin-left: 10px;
+    font-size: 26px;
+    font-weight: 500;
+}
+.profile{
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-image: url("https://images.pexels.com/photos/1630860/pexels-photo-1630860.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");*/
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+.guests{
+    padding: 8px;
+    width: 100% ;
+    background-color: rgba(189, 187, 187, 0.4);
+    border-bottom: 1px solid #d9d9d9;
+}
+.notes{
+    padding: 8px;
+    width: 100% ;
+    background-color: rgba(189, 187, 187, 0.4);
+    border-bottom: 1px solid #d9d9d9;
+}
+.icon-clear{
+    cursor: pointer;
+}

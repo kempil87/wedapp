@@ -1,0 +1,77 @@
+.header {
+    width: 100%;
+    height: 60px;
+    /*background: linear-gradient(to top left,black,white);*/
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-logo {
+    color: #282c34;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    margin: 0 0 0 40px;
+    font-size: 32px;
+    font-family: 'Hurricane', cursive;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.header-name {
+    margin: 0 0 0 20px;
+    font-size: 22px;
+}
+
+.header-heart {
+    font-style: normal;
+}
+
+.header-logo:hover {
+    color: #282c34;
+}
+
+.header-content {
+    margin-right: 40px;
+}
+
+.header-link {
+    text-decoration: none;
+    margin-right: 40px;
+    color: #282c34;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+.header-link:nth-last-child(-n+1){
+    margin-right: 0;
+}
+
+
+.header-link:hover:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #282c34;
+    display: block;
+
+}
+
+.header-link:hover {
+    color: #282c34;
+    opacity: .8;
+
+}
+
+.account_circle {
+    margin-left: 6px;
+}
+
+.exit_to_app {
+    margin-left: 6px;
+}
+
+.feed {
+    margin-left: 6px;
+}
