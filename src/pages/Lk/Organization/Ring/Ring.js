@@ -20,19 +20,21 @@ const Ring = () => {
     }, [])
 
     return (
-        <div className="row container">
-            {organization.map((item) => (
-                <div className="wrap col-6">
-                    <OrganizationCard
-                        key={item._id}
-                        id={item._id}
-                        name={item.name}
-                        banner={item.banner}
-                        description={item.description}
-                        city={item.city}
-                    />
-                </div>
-            ))}
+        <div className="container mt-3">
+            <div className="row">
+                {organization.map((item) => (
+                    <div className="wrap col-6">
+                        <OrganizationCard
+                            key={item._id}
+                            id={item._id}
+                            name={item.name}
+                            banner={item.banner}
+                            description={item.description}
+                            city={item.city}
+                        />
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };

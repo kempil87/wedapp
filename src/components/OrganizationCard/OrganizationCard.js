@@ -9,7 +9,7 @@ const OrganizationCard = ({id,name,banner,city,description}) => {
     return (
         <div className="mt-3">
             <div className="organization-card-wrap">
-                <div className='col-6'>
+                <div className=''>
                     <h4 className="organization-card-name">
                         {name}
                     </h4>

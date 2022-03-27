@@ -66,7 +66,7 @@ const OrganizationIn = () => {
                         <div className="d-flex flex-column">
                            <h3> Мы в соцсетях</h3>
                             {orgInfo?.social.map((i) =>(
-                                <a className="social-link" href={i.url}>
+                                <a className="social-link" target="_blank" href={i.url}>
                                     {i.tag.toUpperCase()}
                                 </a>
                             ))}

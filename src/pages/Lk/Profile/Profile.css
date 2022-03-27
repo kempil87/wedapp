@@ -1,0 +1,40 @@
+.profile-input {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background: none;
+    outline: none;
+    padding-left: 8px;
+    font-size: 20px;
+    margin-left: 8px;
+}
+.profile-input-count{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background: none;
+    outline: none;
+    padding-left: 8px;
+    font-size: 20px;
+    margin-left: 15px;
+    width: 15%;
+}
+.profile-input:focus {
+    border-bottom: 2px solid #eacc7f;
+}
+.profile-btn{
+    margin-left: 20px;
+    height: 36px;
+    color: #282c34;
+    font-weight: 400;
+    cursor: pointer;
+    border: 1px solid #282c34;
+}
+.profile-btn:hover {
+    background-color: #282c34;
+    color: white;
+}
+.profile-guest{
+
+
+}

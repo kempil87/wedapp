@@ -16,6 +16,7 @@ import OrganizationIn from "./pages/Lk/OrganizationIn/OrganizationIn";
 import Header from "./components/Header/Header";
 import Photograph from "./pages/Lk/Organization/Photograph/Photograph";
 import Auto from "./pages/Lk/Organization/Auto/Auto";
+import Footer from "./components/Footer/Footer";
 
 function App() {
     const token = useSelector(state => state.token)
@@ -61,6 +62,7 @@ function App() {
                     </>
                 )}
             </Routes>
+        {token && (<Footer/>)}
     </div>
   );
 }

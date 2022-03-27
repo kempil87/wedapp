@@ -36,13 +36,13 @@ const Header = () => {
                     WEDDING APP
                 </Link>
             </div>
-            {/*{usInfo && (*/}
-            {/*    <h5 className="d-flex align-items-center header-name">*/}
-            {/*        {usInfo?.user.personal?.manName}*/}
-            {/*        <div className="header-heart">❤</div>*/}
-            {/*        {usInfo?.user.personal?.womanName}*/}
-            {/*    </h5>*/}
-            {/*)}*/}
+            {usInfo && (
+                <h5 className="d-flex align-items-center header-name">
+                    {usInfo?.user.personal?.manName}
+                    <div className="header-heart">❤</div>
+                    {usInfo?.user.personal?.womanName}
+                </h5>
+            )}
             <div className="header-content d-flex align-items-center">
                 <Link className="header-link" to={"/"}>
                     <div className="d-flex align-items-center" >
@@ -54,7 +54,7 @@ const Header = () => {
                 </Link>
                 <Link className="header-link " to={"/news"}>
                     <div className="d-flex align-items-center" >
-                        Новости
+                        Новости и подборки
                         <span className="material-icons feed">
                         {/*feed*/}
                     </span>
